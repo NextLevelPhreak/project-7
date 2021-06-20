@@ -16,7 +16,7 @@ body {
 
 .Header {
   color: white;
-  background-color: #7e728a;
+  background-color: #8080ff;
   display: flex;
   justify-content: space-between;
   padding: .7em;
@@ -120,7 +120,7 @@ transform: translate(0%, -30%);
 .close:hover {background: #bbb;}
 
 .nav-bar {
-  background-color: #584e63;
+  background-color: #4d4dff;
   padding-top: .2em;
   padding-left: 15%;
   padding-right: 15%;
@@ -156,7 +156,7 @@ h2 {
   height: 70px;
   display: flex;
   justify-content: space-between;
-  text-shadow: 0 0 7px #7e728a;
+  text-shadow: 0 0 7px #8080ff;
 }
 .dashboard h3 {
   padding-top: 1em;
@@ -177,7 +177,7 @@ input {
   width: 90%;
   padding: .4em;
   color: #FFFFFF;
-  background-color: #7e728a;
+  background-color: #8080ff;
   border-radius: 10px;
   box-shadow: 5px 5px 3px #bfbfbf;
 }
@@ -259,14 +259,15 @@ canvas {
 
 .social-text h1 {
   font-size: 2.3em;
+  color: #8080ff;
 }
 
 .social-image {
   margin-top: 1.2em;
   margin-bottom: .2em;
   padding: .7em;
-  background-color: #584e63;
-  border: 1px solid #584e63;
+  background-color: #8080ff;
+  border: 1px solid #8080ff;
   border-radius: 50%;
 
 }
@@ -305,7 +306,7 @@ canvas {
 }
 
 .activity-subject {
-    text-shadow: 0 0 3px #7e728a;
+    text-shadow: 0 0 3px #8080ff;
   }
 
   div.date2 {
@@ -343,7 +344,7 @@ textarea {
   margin-top: .5em;
   height: 40px;
   border-radius: 5px;
-  background-color: #7e728a;
+  background-color: #8080ff;
   color: #FFFFFF;
   font-size: 1.4em;
   text-shadow: 0 0 5px #FFFFFF;
@@ -353,7 +354,7 @@ span {
   padding-right: 3em;
   padding-top: .5em;
   font-size: 1.1em;
-  text-shadow: 0 0 5px #7e728a
+  text-shadow: 0 0 5px #8080ff
 }
 
 .toggle-switch {
@@ -389,7 +390,7 @@ span {
   left : 30px;
 }
 .checkbox:checked + .switch {
-  background-color: #7e728a;
+  background-color: #8080ff;
 }
 
 .checkbox {
@@ -407,7 +408,7 @@ select {
   height: 40px;
   border-radius: 5px;
   background-color: #d6d6d6;
-  text-shadow: 0 0 5px #7e728a;
+  text-shadow: 0 0 5px #8080ff;
 }
 
 div .settings-button {
@@ -432,7 +433,7 @@ div .settings-button {
 }
 
 .button-primary {
-  background-color: #7e728a;
+  background-color: #8080ff;
 }
 #cancel {
   background-color: #706f6f;
@@ -471,7 +472,7 @@ main {
     width: 70%;
   }
   .vl {
-    left: 76%;
+    left: 73%;
   }
   .social-box {
     display: inline-flex;
@@ -562,7 +563,7 @@ main {
     margin: auto;
   }
   .vl {
-    left: 79%;
+    left: 77%;
   }
   #daily-chart {
     margin-bottom: 6.5em;
