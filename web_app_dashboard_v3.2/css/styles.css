@@ -22,14 +22,14 @@ body {
 }
 
 .nav {
-  grid-area: navigation;
+  grid-area: nav;
 }
 
-.main{
+.main {
   grid-area: main;
 }
 
-.Header {
+.header {
   color: white;
   background-color: #8080ff;
   display: flex;
@@ -470,7 +470,9 @@ main {
     "header header"
     "nav main";
   }
-
+  .main {
+    display: grid;
+  }
   h2 {
     width: 70%;
   }

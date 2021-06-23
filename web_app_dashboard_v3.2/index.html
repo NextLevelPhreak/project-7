@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="css/normalize.css">
 </head>
 
-<body>
+<body class="grid-container">
 
-  <header class="Header">
+  <header class="header">
         <h2>WebApp&trade;</h2>
           <div id="dropBtn">
             <button onclick="myFunction()" class="dropbtn"></button>
@@ -78,7 +78,14 @@
             </div>
           </section>
 
-          <h3 class="titles">MOBILE USERS</h3>
+          <section class="doughnut">
+            <h3 class="titles">MOBILE USERS</h3>
+            <div>
+              <canvas id="doughnut-chart"></canvas>
+            </div>
+          </section>
+
+          <h3 class="titles">SOCIAL STATS</h3>
           <div class="social-box">
             <div class="social-container">
               <div class="social-image">
